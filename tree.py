@@ -29,5 +29,5 @@ def total_sum(node):
     return node.data + total_sum(node.leftChild) + total_sum(node.rightChild)
 
 
-# recursion O(n) total sum of node
+# recursion O(n) total sum of nodes
 print("total sum with recursion ", total_sum(node1))
